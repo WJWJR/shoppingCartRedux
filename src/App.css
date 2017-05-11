@@ -1,3 +1,9 @@
+body {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
 .App {
   text-align: center;
 }
@@ -21,4 +27,14 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.cart {
+  width: 30%;
+  border: 1rem solid #30323D;
+  margin: auto;
+}
+
+li {
+  list-style-type:none;
 }
